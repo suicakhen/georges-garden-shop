@@ -1,0 +1,31 @@
+{
+  "name": "georges-garden-shop",
+  "version": "1.0.0",
+  "description": "Online gargen shop in Perth",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css",
+    "devserver": "live-server --browser=Chrome"
+  },
+  "keywords": [
+    "Georges",
+    "Garden",
+    "Sass",
+    "Bootstrap",
+    "online"
+  ],
+  "author": "Sui Ca Khen",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.4",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.59.2"
+  }
+}
